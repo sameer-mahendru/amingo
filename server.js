@@ -5,7 +5,7 @@ const keys = require('./config/keys')
 const passport = require('passport')
 
 const db = keys.mongoURI;
-
+//Added a comment
 mongoose
     .connect(db, {useNewUrlParser:true, useUnifiedTopology: true })
     .then(() => console.log("DB Is connected"))
